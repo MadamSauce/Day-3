@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --BrightOrange: hsl(31, 77%, 52%);
+    --DarkCyan: hsl(184, 100%, 22%);
+    --VeryDarkCyan: hsl(179, 100%, 13%);
+    --TrnasparentWhite: hsla(0, 0%, 100%, 0.75);
+    --VeryLightGray: hsl(0, 0%, 95%);
+}
+*{
+
+font-size: 15px;
+margin: 0;
+font-family: "Lexend Deca";
+box-sizing: border-box;
+}
+body{
+    background: var(--VeryLightGray);
+}
+.card{
+    /* background-color: black; */
+    width: 920px;
+    height:500px;
+    margin-top: 165px;
+    margin-bottom: 125px;
+    margin-left: 260px;
+    margin-right: 260px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid: column gap 0%;; 
+}
+.section-1{
+    width: 307px;
+    height: 100%;
+    background: var(--BrightOrange);
+    border-radius: 15px 0 0 15px;
+}
+.section img{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+.section h2{
+    font-family: "Big Shoulders Display";
+    margin-top: 45px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: var(--TrnasparentWhite);
+}
+.section p{
+    font-family: "Lexend Deca";
+    color: var(--TrnasparentWhite);
+    line-height: 30px;
+    margin-left: 50px;
+    padding-right: 10px;
+}
+.section-2{
+    width: 307px;
+    height: 100%;
+    background: var(--DarkCyan);
+}
+.section-2 button{
+    margin-top: 60px;
+}
+.section-3{
+    width: 307px;
+    height: 100%;
+    background: var(--VeryDarkCyan);
+    border-radius:0 15px 15px 0;
+}
+.section-3 h2{
+    margin-left: 40px;
+}
+.section-3 img{
+    margin-left: 40px;
+}
+.section-3 p{
+    margin-left: 40px;
+}
+button{
+    border-radius: 20px;
+    border: solid 2px var(--TrnasparentWhite);
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+    margin-left: 50px;
+    margin-top: 90px;
+    color: var(--TrnasparentWhite);
+}
+.attribution{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
